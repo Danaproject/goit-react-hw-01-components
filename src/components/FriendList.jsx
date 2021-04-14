@@ -2,15 +2,13 @@ import FriendListItem from './FriendListItem';
 import PropTypes from "prop-types";
 import defaultAvatar from '../default.svg';
 
-const FriendList = ({ friends }) => {
-    return (
+const FriendList = ({ friends }) => (
         <ul className="friend-list">
             {friends.map((friend) => (
                 <FriendListItem key={friend.id} avatar={friend.avatar} name={friend.name} isOnline={friend.isOnline} />
             ))}
         </ul>
     );
-};
 
 FriendListItem.defaultProps = {
     avatar: defaultAvatar,

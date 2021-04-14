@@ -1,12 +1,10 @@
 import StatList from './StatList';
 
-const Statistics = ({ title, stats }) => {
-    const titleMarkup = title && <h2 className="title">{title}</h2>;
-    return (
+const Statistics = ({ title, stats }) => (
         <section className="statistics">
-            {titleMarkup}
+            {title && (<h2 className="title">{title}</h2>)}
             <StatList stats={stats} />
         </section>
     );
-};
+
 export default Statistics;
