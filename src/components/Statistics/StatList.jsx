@@ -1,8 +1,9 @@
 import StatItem from './StatItem';
 import PropTypes from "prop-types";
+import styles from './Statistics.module.css';
 
 const StatList = ({ stats }) => (
-        <ul className="stat-list">
+        <ul className={styles.list}>
             {stats.map((dataItem) => (
                 <StatItem key={dataItem.id} label={dataItem.label} percentage={dataItem.percentage} />
             ))}
