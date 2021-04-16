@@ -1,9 +1,13 @@
+@value accent-color from '../../vars.module.css';
+@value item-first-color from '../../vars.module.css';
+@value primary-color from '../../vars.module.css';
+
 .transactionHistory {
   display: block;
   margin-bottom: 20px;
   width: 750px;
   height: fit-content;
-  background: #fff;
+  background: primary-color;
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(0, 0, 0, 0.12);
   border-radius: 0px 0px 4px 5px;
@@ -19,14 +23,14 @@
   font-size: 14px;
 }
 .transactionHistory th {
-  background-color: #0a1787;
+  background-color: accent-color;
   text-transform: uppercase;
-  color: #fff;
+  color: primary-color;
 }
 
 /* text-transform: capitalize; */
 .transactionHistory tr:nth-child(2n + 2) {
-  background-color: #edf3f9;
+  background-color: item-first-color;
 }
 .transactionHistory tbody td:first-child {
   text-transform: capitalize;

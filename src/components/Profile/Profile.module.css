@@ -1,9 +1,14 @@
+@value accent-color from '../../vars.module.css';
+@value item-first-color from '../../vars.module.css';
+@value item-second-color from '../../vars.module.css';
+@value primary-color from '../../vars.module.css';
+
 .profile {
   display: block;
   margin-bottom: 20px;
   width: 270px;
   height: fit-content;
-  background: #fff;
+  background: primary-color;
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(0, 0, 0, 0.12);
   border-radius: 0px 0px 4px 5px;
@@ -23,13 +28,13 @@
 .tag {
   text-align: center;
   font-size: 15px;
-  color: #0a1787;
+  color: accent-color;
 }
 .location {
   margin-bottom: 40px;
   text-align: center;
   font-size: 15px;
-  color: #0a1787;
+  color: accent-color;
 }
 .stats {
   display: flex;
@@ -39,14 +44,14 @@
   padding: 20px;
   width: 90px;
   border: 1px solid lightgrey;
-  background-image: linear-gradient(#edf3f9, 70%, #fdfde9);
+  background: linear-gradient(item-first-color, 70%, item-second-color);
 }
 .label {
   display: block;
   margin-bottom: 8px;
   text-align: center;
   font-size: 12px;
-  color: #0a1787;
+  color: accent-color;
 }
 .quantity {
   display: block;
