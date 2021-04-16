@@ -1,5 +1,4 @@
-@value primary-color from '../../vars.module.css';
-@value box-shadow from '../../vars.module.css';
+@value primary-color, box-shadow from '../../vars.module.css';
 
 .statistics {
   display: block;
@@ -10,6 +9,7 @@
   box-shadow: box-shadow;
   border-radius: 0px 0px 4px 5px;
 }
+
 .title {
   display: block;
   padding: 12px;
@@ -18,9 +18,11 @@
   text-transform: uppercase;
   font-weight: normal;
 }
+
 .list {
   display: flex;
 }
+
 .item {
   display: block;
   margin: 0 auto;
@@ -28,12 +30,14 @@
   width: 60px;
   border: 1px solid lightgrey;
 }
+
 .label {
   display: block;
   margin: 0 auto 6px;
   text-align: center;
   font-size: 12px;
 }
+
 .percentage {
   display: block;
   margin: 0 auto;

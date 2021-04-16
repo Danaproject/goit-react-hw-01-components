@@ -13,6 +13,7 @@
   box-shadow: box-shadow;
   border-radius: 0px 0px 4px 5px;
 }
+
 .avatar {
   display: block;
   margin: 40px auto;
@@ -25,27 +26,32 @@
   font-size: 18px;
   font-weight: bold;
 }
+
 .tag {
   text-align: center;
   font-size: 15px;
   color: accent-color;
 }
+
 .location {
   margin-bottom: 40px;
   text-align: center;
   font-size: 15px;
   color: accent-color;
 }
+
 .stats {
   display: flex;
 }
-.stats__item {
+
+.statsItem {
   display: block;
   padding: 20px;
   width: 90px;
   border: 1px solid lightgrey;
   background: linear-gradient(item-first-color, 70%, item-second-color);
 }
+
 .label {
   display: block;
   margin-bottom: 8px;
@@ -53,6 +59,7 @@
   font-size: 12px;
   color: accent-color;
 }
+
 .quantity {
   display: block;
   margin: 0 auto;

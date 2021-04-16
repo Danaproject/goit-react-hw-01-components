@@ -17,6 +17,7 @@
   border-radius: 0px 0px 4px 5px;
   background: linear-gradient(item-first-color, 70%, item-second-color);
 }
+
 .status {
   display: block;
   margin-right: 16px;
@@ -25,10 +26,12 @@
   background-color: crimson;
   border-radius: 50%;
 }
+
 .isOnline {
   composes: status;
   background-color: teal;
 }
+
 .avatar {
   display: block;
   margin-right: 16px;
@@ -36,6 +39,7 @@
   height: 48px;
   align-items: center;
 }
+
 .name {
   margin: 0;
   font-size: 26px;

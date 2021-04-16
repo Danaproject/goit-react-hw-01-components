@@ -22,6 +22,7 @@
   width: 250px;
   font-size: 14px;
 }
+
 .transactionHistory th {
   background-color: accent-color;
   font-size: 12px;
@@ -29,10 +30,10 @@
   color: primary-color;
 }
 
-/* text-transform: capitalize; */
 .transactionHistory tr:nth-child(2n + 2) {
   background-color: item-first-color;
 }
+
 .transactionHistory tbody td:first-child {
   text-transform: capitalize;
 }
