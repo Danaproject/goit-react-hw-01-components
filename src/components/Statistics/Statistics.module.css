@@ -1,4 +1,5 @@
 @value primary-color from '../../vars.module.css';
+@value box-shadow from '../../vars.module.css';
 
 .statistics {
   display: block;
@@ -6,8 +7,7 @@
   width: fit-content;
   height: fit-content;
   background: primary-color;
-  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 1px 3px rgba(0, 0, 0, 0.12);
+  box-shadow: box-shadow;
   border-radius: 0px 0px 4px 5px;
 }
 .title {
