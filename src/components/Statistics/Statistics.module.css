@@ -28,7 +28,18 @@
   margin: 0 auto;
   padding: 8px;
   width: 60px;
-  border: 1px solid lightgrey;
+  color: primary-color;
+  /* border: 1px solid lightgrey; */
+}
+
+.item:nth-child(3n + 1) {
+  background-color: #2196f3;
+}
+.item:nth-child(3n + 2) {
+  background-color: #e91e63;
+}
+.item:nth-child(3n + 3) {
+  background-color: #4caf50;
 }
 
 .label {
