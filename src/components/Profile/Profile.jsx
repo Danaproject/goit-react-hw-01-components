@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import defaultAvatar from '../assets/default.svg';
+import defaultAvatar from '../../assets/default.svg';
 import styles from './Profile.module.css';
 
 const Profile = ({ avatar, name, tag, location, stats }) => (

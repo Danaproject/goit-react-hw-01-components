@@ -1,6 +1,6 @@
 import FriendListItem from './FriendListItem';
 import PropTypes from "prop-types";
-import defaultAvatar from '../assets/default.svg';
+import defaultAvatar from '../../assets/default.svg';
 import styles from './FriendList.module.css';
 
 const FriendList = ({ friends }) => (
